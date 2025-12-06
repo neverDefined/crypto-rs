@@ -1,0 +1,35 @@
+# === Rust build artifacts ===
+/target/
+/debug/
+/release/
+
+# === Rust package / cargo ===
+**/*.rs.bk
+Cargo.lock
+
+# === IDE / editor ===
+# VSCode
+.vscode/
+# Cursor (inherits VSCode)
+.cursor/
+# JetBrains (CLion, RustRover, etc.)
+.idea/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs / temporary ===
+*.log
+*.tmp
+
+# === Crypto / security ===
+# If you ever test with dev keys, keep them out of git
+keys/
+secrets/
+*.pem
+*.der
+
+# === Testing artifacts ===
+coverage/
+
